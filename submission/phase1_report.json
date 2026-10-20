@@ -1,11 +1,110 @@
 {
-  "vm_ip": "34.136.63.215",
-  "cloud_run_url": "https://echo-bot-m7mnrsaaua-uc.a.run.app",
-  "function_url": "https://echo-m7mnrsaaua-uc.a.run.app",
-  "vm_get_test": {"echo":"hello","length":5},
-  "vm_post_test": {"echo":"hello","length":5},
-  "run_get_test": {"echo":"hello","length":5},
-  "run_post_test": {"echo":"hello","length":5},
-  "function_get_test": {"echo":"hello","length":5},
-  "function_post_test": {"echo":"hello","length":5}
+  "phase": "1",
+  "environment": {
+    "cloud_shell": true
+  },
+  "platforms": {
+    "vm": {
+      "url": "http://34.136.63.215:8080",
+      "echo_ok": true,
+      "status": 200,
+      "cold_ms": 248.9,
+      "warm_ms": [
+        211.0,
+        213.1,
+        212.4,
+        211.4,
+        211.2,
+        211.1,
+        211.0,
+        210.6,
+        210.8,
+        213.7,
+        210.8,
+        211.6,
+        212.8,
+        214.2,
+        212.6,
+        212.3,
+        210.5,
+        210.9,
+        215.1,
+        213.4
+      ],
+      "stats": {
+        "min": 210.5,
+        "median": 211.5,
+        "p95": 214.2,
+        "max": 215.1
+      }
+    },
+    "cloudrun": {
+      "url": "https://echo-bot-m7mnrsaaua-uc.a.run.app",
+      "echo_ok": true,
+      "status": 200,
+      "cold_ms": 656.8,
+      "warm_ms": [
+        641.7,
+        644.7,
+        672.4,
+        639.3,
+        629.7,
+        678.7,
+        635.9,
+        635.0,
+        674.0,
+        126.8,
+        126.8,
+        628.8,
+        675.7,
+        671.9,
+        631.1,
+        635.5,
+        120.6,
+        121.3,
+        629.8,
+        118.9
+      ],
+      "stats": {
+        "min": 118.9,
+        "median": 635.2,
+        "p95": 675.7,
+        "max": 678.7
+      }
+    },
+    "function": {
+      "url": "https://echo-m7mnrsaaua-uc.a.run.app",
+      "echo_ok": true,
+      "status": 200,
+      "cold_ms": 651.4,
+      "warm_ms": [
+        641.0,
+        631.6,
+        676.1,
+        127.7,
+        668.5,
+        121.2,
+        632.2,
+        637.3,
+        632.9,
+        641.4,
+        675.9,
+        675.7,
+        679.5,
+        674.2,
+        664.0,
+        686.3,
+        122.9,
+        120.7,
+        131.3,
+        686.2
+      ],
+      "stats": {
+        "min": 120.7,
+        "median": 641.2,
+        "p95": 686.2,
+        "max": 686.3
+      }
+    }
+  }
 }
