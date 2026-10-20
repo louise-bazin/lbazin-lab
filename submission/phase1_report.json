@@ -1,0 +1,5 @@
+{
+  "vm_ip": "34.136.63.215",
+  "get_test": {"echo":"hello","length":5},
+  "post_test": {"echo":"hello","length":5}
+}
