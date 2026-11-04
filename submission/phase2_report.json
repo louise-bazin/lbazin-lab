@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 262.89,
+    "vectorized_ms": 1.019,
+    "speedup": 257.99
+  },
+  "threads": {
+    "1": 2577.35,
+    "2": 2163.371,
+    "4": 2259.862,
+    "8": 2378.442
+  },
+  "devices": {
+    "cpu_ms": 443376.0,
+    "gpu_ms": 12826.3
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4235,
+    "param_count": 4935680
+  },
+  "sample": "\n\nAnd too, Let to the villace, well,\nAt trickly it prectate with no Munture of love,\n'I will shall, I not impey was but suls.\n\nDUKE VINCENTIO:\nTurn O Evely what I had begard'd I bet one being lime God,",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-49ca2bd9-4e8b-46cf-b52-eurecomgpt/model.safetensors"
+  }
+}
